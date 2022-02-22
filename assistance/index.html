@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Font awersom -->
+        <script
+            src="https://kit.fontawesome.com/eac4e59fcc.js"
+            crossorigin="anonymous"
+        ></script>
+        <!-- Menu style -->
+        <link rel="stylesheet" href="../menu/menu.css" />
+        <!-- Footer Style -->
+        <link rel="stylesheet" href="../footer/footer.css" />
+        <link rel="stylesheet" href="./style.css" />
+
+        <!-- Injection de la barre de navigation -->
+        <script
+            src="https://code.jquery.com/jquery-2.2.4.min.js"
+            integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+            crossorigin="anonymous"
+        ></script>
+        <script>
+            $(document).ready(() => {
+                $("#header").load("../menu/index.html");
+            });
+        </script>
+        <title>Spotify</title>
+    </head>
+    <body>
+        <!-------------------- header ---------------------->
+        <div id="header"></div>
+
+        <!-------------------- Corps de la page ---------------------->
+        <main>
+            <div class="banner">
+                <div class="container">
+                    <div class="title">
+                        <h1>
+                            Que pouvons-nous faire<br />
+                            pour vous ?
+                        </h1>
+                    </div>
+                    <div class="search">
+                        <input
+                            type="search"
+                            name="search"
+                            id=""
+                            placeholder="&nbsp; &nbsp;&nbsp;&#xF002; &nbsp;&nbsp;Rechercher"
+                            style="font-family: Poppins, FontAwesome"
+                        />
+                    </div>
+                    <div class="connexion">
+                        <div>
+                            <h3>CONNEXION</h3>
+                        </div>
+                        <div><h3>ABONNEMENTS DISPONIBLES</h3></div>
+                        <div><h3>CONNEXION</h3></div>
+                        <div><h3>CONNEXION</h3></div>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <!-- Injection du footer -->
+        <script>
+            $(document).ready(() => {
+                $("#footer").load("../footer/index.html");
+            });
+        </script>
+        <!-- footer -->
+        <div id="footer"></div>
+    </body>
+</html>
