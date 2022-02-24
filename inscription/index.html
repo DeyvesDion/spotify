@@ -10,10 +10,10 @@
             crossorigin="anonymous"
         ></script>
         <!-- Menu style -->
-        <link rel="stylesheet" href="./menu/menu.css" />
+        <link rel="stylesheet" href="../menu/menu.css" />
         <!-- Footer Style -->
-        <link rel="stylesheet" href="./footer/footer.css" />
-        <link rel="stylesheet" href="./src/style.css" />
+        <link rel="stylesheet" href="../footer/footer.css" />
+        <link rel="stylesheet" href="./style.css" />
 
         <!-- Injection de la barre de navigation -->
         <script
@@ -23,30 +23,24 @@
         ></script>
         <script>
             $(document).ready(() => {
-                $("#header").load("./menu/index.html");
+                $("#header").load("../menu/index.html");
             });
         </script>
         <title>Spotify</title>
     </head>
     <body>
-        <!-------------------- header ---------------------->
+         <!-------------------- header ---------------------->
         <div id="header"></div>
-
-        <!-------------------- Corps de la page ---------------------->
         <main>
-            <!-------------------- Bannière ---------------------->
-
-            <!-------------------- Premium ---------------------->
-
-            <!-------------------- Offre ---------------------->
+            
         </main>
+         </main>
         <!-- Injection du footer -->
         <script>
             $(document).ready(() => {
-                $("#footer").load("./footer/index.html");
+                $("#footer").load("../footer/index.html");
             });
         </script>
         <!-- footer -->
         <div id="footer"></div>
     </body>
-</html>
