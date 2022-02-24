@@ -25,7 +25,7 @@ main .banner .container {
 
 .container .search input {
     height: 55px;
-    width: 600px;
+    width: 700px;
     border-radius: 4px;
     margin: 40px 0;
 }
@@ -39,8 +39,30 @@ main .banner .container {
 
 .container .connexion {
     width: 100%;
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    text-align: center;
+}
+
+.connexion .link h3 {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #d9d9d9;
+    margin-bottom: 10px;
+}
+
+.connexion .link a {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 27px;
+    color: #fff;
+
+}
+
+.connexion .link a:hover {
+    text-decoration: underline;
 }
