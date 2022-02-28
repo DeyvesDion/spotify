@@ -9,6 +9,12 @@
             src="https://kit.fontawesome.com/eac4e59fcc.js"
             crossorigin="anonymous"
         ></script>
+        <!-- Favicon -->
+        <link
+            rel="shortcut icon"
+            href="../assets/favicon-16x16.png"
+            type="image/x-icon"
+        />
         <!-- Menu style -->
         <link rel="stylesheet" href="../menu/menu.css" />
         <!-- Footer Style -->
@@ -26,13 +32,60 @@
                 $("#header").load("../menu/index.html");
             });
         </script>
-        <title>Spotify</title>
+        <title>Téléchargement</title>
     </head>
     <body>
          <!-------------------- header ---------------------->
         <div id="header"></div>
         <main>
-            
+            <!-- banner -->
+            <div class="banner">
+                <div class="container">
+                    <div class="img">
+                        <img src="../assets/laptop.svg" alt="">
+                        <img class="img2" src="../assets/green-circle.svg" alt="">
+                        <i class="fa-solid fa-check"></i>
+                    </div>
+                    <h1>Télécharger Spotify</h1>
+                    <h2>Écoutez des millions de titres et de podcasts sur votre appareil.</h2>
+                    <button type="">Télécharger</button>
+                </div>
+                
+            </div>
+            <!------------------------- download ------------------->
+            <div class="download">
+                <div class="container">
+                    <h2>Écoutez aussi votre musique sur votre mobile et votre tablette.</h2>
+                    <h3>Écouter sur votre téléphone ou votre tablette est gratuit, facile et amusant.</h3>
+                    <div class="downloadImg">
+                        <img src="../assets/badge-fr.svg" alt="Download Iphone">
+                        <img src="../assets/badge2-fr.svg" alt="Download Android">
+                        <img src="../assets/badge3fr.png" alt="Download Microsoft">
+                    </div>
+                </div>
+            </div>
+            <div class="app">
+                <div class="container">
+                    <div class="img">
+                        <img src="../assets/all-devices.svg" alt="All device" srcset="">
+                    </div>
+                    <div class="title">
+                        <h1>Un compte pour écouter partout.</h1>
+                    </div>
+                    <div class="link">
+                        <a href="#" class="mobile">MOBILE</a>
+                        <i class="fa-solid fa-play"></i>
+                        <a href="#" class="mobile">ORDINATEUR</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="mobile">TABLETTE</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="fix">VOITURE</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="fix">PLAYSTATION</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="fix">XBOX</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="fix">TELEVISION</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="fix">ENCEINTE</a><i class="fa-solid fa-play"></i>
+                        <a href="#" class="fix">LECTEUR WEB</a>
+                    </div>
+                </div>
+            </div>
         </main>
          </main>
         <!-- Injection du footer -->
