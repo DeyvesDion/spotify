@@ -1,276 +1,101 @@
-/* banner style */
-main .banner {
-    height: 83vh;
+main {
     width: 100%;
-    background-color: #1D75DE;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    height: auto;
+    padding: 0px 0;
 }
 
-main .banner .description {
-    width: 90%;
-    height: auto;
+main .container1 {
+    width: 76%;
+    margin: 0 auto;
+    padding: 0 20px;
+    background-color: #1D1D1D;
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    min-height: 280px;
-    justify-content: space-between;
     align-items: start;
+    justify-content: space-between;
 }
 
-.banner .description .title {
-    color: #fff;
-    font-size: 35px;
-    line-height: 48px;
-    font-weight: 900;
-    font-family: 'Poppins',
-        "sans-serif";
-}
-
-.banner .description .subTitle {
-    color: #fff;
-    font-size: 24px;
-    line-height: 36px;
-    font-weight: 400;
-}
-
-.description .buttonWrapper .button {
-    color: #fff;
-    font-size: 14px;
-    line-height: 20px;
-    padding: 14px 32px;
-    border-radius: 500px;
-    cursor: pointer;
-    font-weight: 700;
-    justify-content: center;
-    text-decoration: none;
-    border: 2px solid rgb(255, 255, 255);
-}
-
-.description .buttonWrapper .button:hover {
-    transform: scale(1.04);
-    -webkit-transform: scale(1.04);
-    -moz-transform: scale(1.04);
-    -ms-transform: scale(1.04);
-    -o-transform: scale(1.04);
-}
-
-.description .buttonWrapper .btn1 {
-    border: 2px solid #000;
-    background-color: #000;
-    margin-right: 5px;
-}
-
-.description .buttonWrapper .btn2 {
-    background-color: transparent;
-}
-
-.description .buttonWrapper .btn2:hover {
-    background-color: #1A69C7;
-
-}
-
-.description .cgv p {
-    color: #fff;
-    font-size: 12px;
-    font-weight: 400;
-    line-height: 16px;
-    letter-spacing: 0.25px;
-}
-
-.cgv p span {
-    text-decoration: underline;
-    color: #fff;
-}
-
-/* premiun style */
-.premium {
-    padding: 75px 15px;
-}
-
-.premium .description {
-    text-align: center;
-    font-size: 27px;
-    margin-bottom: 72px;
-    font-weight: 900;
-}
-
-.premium .formuleWrapper {
-    width: 90%;
+.container1 .cards {
+    width: 100%;
     margin: 0 auto;
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    align-items: center;
     justify-content: space-between;
-    text-align: center;
 }
 
-.formuleWrapper .formule img {
-    width: 142px;
-    height: 142px;
-    margin-bottom: 30px;
+.container1 .title1 {
+    padding: 20px 20px;
 }
 
-.formule .txt h3 {
-    font-size: 18px;
-    margin-bottom: 10px;
+.container1 .title1 h1 {
+    color: #fff;
+    font-size: 24px;
     font-weight: 700;
-    line-height: 27px;
-}
-
-.formule .txt h4 {
-    font-size: 16px;
-    margin-bottom: 10px;
-    font-weight: 400;
     line-height: 24px;
 }
 
-/* formule style */
-main .offre {
-    min-height: 100vh;
-    width: 100%;
-    margin: 0 auto;
-    padding: 75px 15px;
-    background-color: #EFEFEF;
-}
-
-main .offre .title {
-    text-align: center;
-    font-size: 40px;
-    letter-spacing: -1.6px;
-    font-weight: 700;
-    line-height: 40px;
-}
-
-main .offre .subTitle {
-    font-size: 16px;
-    font-weight: normal;
-    margin: 10px 0px;
-    text-align: center;
-    padding: 0px;
-    font-weight: 700;
-    line-height: 40px;
-}
-
-.offre .cardWrapper {
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.offre .cardWrapper .card {
-    height: auto;
-    width: 24%;
-    margin: 40px 0;
-    border-radius: 10px;
-    background-color: #fff;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.cardWrapper .card .cardHead {
-    padding: 15px;
-}
-
-.cardWrapper .card h3 {
-    width: 125px;
-    font-size: 14px;
-    font-weight: 900;
-    border-radius: 4px;
-    padding: 4px 8px;
-    margin: 0px 4px 10px 0px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(46, 119, 208);
-}
-
-.cardWrapper .card p {
-    line-height: 21px;
-    font-size: 14px;
-    padding-bottom: 7px;
-}
-
-.cardWrapper .card hr {
-    align-self: stretch;
-    border-color: rgb(204, 204, 204);
-    margin: 0 auto;
-    margin-bottom: 5px;
-    width: 85%;
-}
-
-.cardWrapper .card .cardBottom {
-    padding: 15px;
-}
-
-.card .cardBottom .check {
-    display: flex;
-}
-
-.cardBottom .check svg {
-    margin-right: 10px;
-}
-
-.cardBottom .check p {
-    font-size: 16px;
-    line-height: 22px;
-    font-weight: 400;
-
-}
-
-.cardBottom .button {
-    width: 100%;
-    font-size: 14px;
-    line-height: 20px;
-    margin-bottom: 15px;
-    padding: 14px 32px;
-    font-weight: 700;
-    border: 2px solid #000;
-    border-radius: 500px;
-    color: #fff;
-    background-color: #000;
+.container1 .title1 h1:hover {
+    text-decoration: underline;
     cursor: pointer;
 }
 
-.cardBottom .button:hover {
-    transform: scale(1.04);
-    -webkit-transform: scale(1.04);
-    -moz-transform: scale(1.04);
-    -ms-transform: scale(1.04);
-    -o-transform: scale(1.04);
+.container1 .cards .card {
+    width: 25%;
+    padding: 15px 15px;
+    margin: 0 10px;
+    box-shadow: rgb(24, 24, 24) 0px 1px 4px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
-.cardBottom .btn1 {
-    margin-top: 190px;
+.container1 .cards .card:hover {
+    background-color: rgb(44, 43, 43);
 }
 
-.cardBottom .btn2 {
-    margin-top: 109px;
+.container1 .cards .card:hover .fa-solid {
+    display: block;
 }
 
-.cardBottom .btn3 {
-    margin-top: 27px;
+.cards .card .img {
+    position: relative;
 }
 
-.cardBottom .btn4 {
-    margin-top: 114px;
+.cards .card .img img {
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
-.cardBottom .cgv p {
-    color: #000;
-    font-size: 10px;
+.fa-solid {
+    position: absolute;
+    color: #1ed760;
+    font-size: 35px;
+    top: 135px;
+    right: 10px;
+    display: none;
+}
+
+.container1 .title {
+    padding: 5px 0;
+}
+
+.container1 .cards .title h2 {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.container1 .cards .txt p {
+    color: #b3b3b3;
+    font-size: 11px;
     font-weight: 400;
-    line-height: 16px;
-    margin-bottom: 40px;
-}
-
-.cardBottom .cgv p a {
-    color: #000;
-    text-decoration: underline;
+    line-height: 24px;
 }
