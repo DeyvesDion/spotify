@@ -67,6 +67,7 @@ main .container1 {
 }
 
 .cards .card .img img {
+    width: 100%;
     border-radius: 5px;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
