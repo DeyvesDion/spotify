@@ -1,3 +1,8 @@
+/* Overflow */
+html {
+    overflow-x: hidden;
+}
+
 /* banner style */
 main .banner {
     height: 83vh;
@@ -60,10 +65,13 @@ main .banner .description {
     border: 2px solid #000;
     background-color: #000;
     margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .description .buttonWrapper .btn2 {
     background-color: transparent;
+    margin-bottom: 10px;
 }
 
 .description .buttonWrapper .btn2:hover {
@@ -94,10 +102,11 @@ main .banner .description {
     font-size: 27px;
     margin-bottom: 72px;
     font-weight: 900;
+    line-height: 45px;
 }
 
 .premium .formuleWrapper {
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
@@ -106,10 +115,22 @@ main .banner .description {
     text-align: center;
 }
 
+.formuleWrapper .formule {
+    margin: 0 auto;
+    display: flex;
+}
+
 .formuleWrapper .formule img {
     width: 142px;
     height: 142px;
     margin-bottom: 30px;
+}
+
+.formule .txt {
+    text-align: left;
+    margin-left: 32px;
+    margin-top: 15px;
+
 }
 
 .formule .txt h3 {
@@ -273,4 +294,106 @@ main .offre .subTitle {
 .cardBottom .cgv p a {
     color: #000;
     text-decoration: underline;
+}
+
+
+/* Media Queries */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .premium .description {
+        text-align: center;
+        font-size: 20px;
+        /* line-height: 45px; */
+    }
+
+    main .offre .title {
+        font-size: 30px;
+    }
+
+    .offre .cardWrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .offre .cardWrapper .card {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width:600px) {
+    .premium .description {
+        text-align: center;
+        font-size: 20px;
+    }
+
+    main .offre .title,
+    main .offre .subTitle {
+        text-align: center;
+    }
+
+    main .offre .title {
+        font-size: 30px;
+    }
+
+    .offre .cardWrapper {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .offre .cardWrapper .card {
+        width: 100%;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .premium .description {
+        text-align: center;
+        font-size: 20px;
+        /* line-height: 45px; */
+    }
+
+    main .offre .title {
+        font-size: 30px;
+    }
+
+    .offre .cardWrapper {
+        width: 50%;
+        flex-direction: row;
+    }
+
+    .offre .cardWrapper .card {
+        width: 100%;
+    }
+
+    .formuleWrapper .formule {
+        display: block;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .premium .description {
+        text-align: center;
+        font-size: 20px;
+        /* line-height: 45px; */
+    }
+
+    main .offre .title {
+        font-size: 30px;
+    }
+
+    .offre .cardWrapper {
+        width: 90%;
+        flex-direction: row;
+    }
+
+    .offre .cardWrapper .card {
+        width: 24%;
+    }
+
+    .formuleWrapper .formule {
+        display: block;
+    }
 }
