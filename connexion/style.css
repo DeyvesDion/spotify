@@ -1,0 +1,195 @@
+main {
+    width: 100%;
+    padding: 30px 0;
+}
+
+main .container {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+main .container .logo {
+    padding: 30px 0;
+}
+
+main .container .logo img {
+    height: 40px;
+}
+
+main .container .title {
+    padding: 30px 0;
+}
+
+main .container .title h1 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 40px;
+    text-align: center;
+}
+
+main .container .btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main .container button {
+    font-size: 16px;
+    width: 394px;
+    height: 45px;
+    margin: 10px 0;
+    padding: 6px 24px;
+    cursor: pointer;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+}
+
+main .container button:hover {
+    transform: scale(1.04);
+    -webkit-transform: scale(1.04);
+    -moz-transform: scale(1.04);
+    -ms-transform: scale(1.04);
+    -o-transform: scale(1.04);
+}
+
+main .container .btn .btn1 {
+    color: #fff;
+    font-weight: 600;
+    border: none;
+    background-color: #405A93;
+}
+
+main .container .btn .btn2 {
+    color: #535385;
+    font-weight: 600;
+    background-color: #fff;
+    border-color: 1px solid #000;
+}
+
+main .container .btn .btn3 {
+    color: #fff;
+    font-weight: 600;
+    background-color: #000;
+    border-color: 1px solid #000;
+}
+
+main .container .btn .btn3 i {
+    color: #fff;
+}
+
+main .container .btn .btn1 i,
+main .container .btn .btn2 i,
+main .container .btn .btn3 i {
+    margin: 0 10px;
+}
+
+main .separators {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 0;
+}
+
+main .separators .separator {
+    background-color: rgb(204, 204, 204);
+    height: 1px;
+    width: 170px;
+}
+
+main .separators span {
+    margin: 0 15px;
+    color: rgb(175, 173, 173);
+}
+
+main .form h2 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 26px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+main .form .formGroup {
+    margin: 12px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: space-between;
+}
+
+main .form .formGroup label {
+    font-size: 14px;
+    margin-right: 50px;
+}
+
+main .form .formGroup input,
+main .form .formGroup select {
+    height: 55px;
+    width: 100%;
+    margin: 10px 0;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+main .form .formGroup .birthday,
+main .form .formGroup .sex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+main .form .formGroup .birthday .day,
+main .form .formGroup .birthday .month {
+    margin-right: 10px;
+}
+
+main .form .formGroup .sex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: space-between;
+}
+
+.male,
+.female,
+.binaire {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    /* justify-content: space-between; */
+}
+
+.sexInput,
+.femaleInput,
+.binaireInput {
+    height: 18px !important;
+}
+
+.form .btn button {
+    font-size: 16px;
+    width: 194px;
+    height: 45px;
+    margin: 10px 0;
+    color: #000;
+    background-color: #1ED760;
+    border: none;
+    padding: 6px 24px;
+    cursor: pointer;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    -ms-border-radius: 500px;
+    -o-border-radius: 500px;
+}
