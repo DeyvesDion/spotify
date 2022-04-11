@@ -4,7 +4,7 @@ main {
 }
 
 main .container {
-    width: 40%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -108,6 +108,10 @@ main .separators span {
     color: rgb(175, 173, 173);
 }
 
+main .form {
+    width: 80%;
+}
+
 main .form h2 {
     font-size: 18px;
     font-weight: 700;
@@ -141,42 +145,6 @@ main .form .formGroup select {
     -o-border-radius: 5px;
 }
 
-main .form .formGroup .birthday,
-main .form .formGroup .sex {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-}
-
-main .form .formGroup .birthday .day,
-main .form .formGroup .birthday .month {
-    margin-right: 10px;
-}
-
-main .form .formGroup .sex {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-between;
-}
-
-.male,
-.female,
-.binaire {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    /* justify-content: space-between; */
-}
-
-.sexInput,
-.femaleInput,
-.binaireInput {
-    height: 18px !important;
-}
-
 .form .btn button {
     font-size: 16px;
     width: 194px;
@@ -188,8 +156,39 @@ main .form .formGroup .sex {
     padding: 6px 24px;
     cursor: pointer;
     border-radius: 500px;
+    text-transform: uppercase;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
     -ms-border-radius: 500px;
     -o-border-radius: 500px;
+}
+
+.form .rapel {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .rapel .contain {
+    display: flex;
+    flex-direction: column;
+}
+
+.form .rapel .contain .for {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form .bt button {
+    text-transform: uppercase;
+}
+
+.inscrip .bt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
